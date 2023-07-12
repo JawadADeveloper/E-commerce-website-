@@ -120,7 +120,6 @@
   background-position: top 25% right 400px;
   background-repeat: no-repeat;
   background-color: #feb201;
-  position: fixed;
 
 }
 
@@ -161,6 +160,7 @@
   align-items: center;
   flex-direction: column;
   padding-bottom: 10px;
+  padding-top: 42px;
 }
 
 .title {
@@ -481,5 +481,123 @@ background-color: #db6c17;
   font-size: 20px;
   border:lightpink solid transparent;
 
+
+}
+
+#Productdetails .mainpic {
+  width: 40%;
+  margin-right: 50px;
+}
+
+
+
+#Productdetails {
+  display: flex;
+margin-top: 20px;
+}
+
+
+
+.morepic{
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+
+.colpic{
+  flex-basis: 24%;
+  cursor: pointer;
+}
+
+.detailsofpic{
+  margin-top: 10px;
+  color: white;
+  padding: 10px;
+  margin-right: 0px;
+  width: 50%;
+  height: 48px%;
+}
+
+.detailsofpic h2, h6, h4{
+  margin: 20px 10px;
+
+  
+}
+
+.detailsofpic h2{
+
+  font-size: 30px;
+  padding-bottom: 4px;
+  color: black;
+
+}
+
+.detailsofpic p{
+  margin: 20px 10px;
+}
+
+.detailsofpic select{
+display: flex;
+  justify-content: space-between;
+padding: 5px;
+margin-bottom: 10px;
+}
+
+.detailsofpic input{
+  padding: 5px;
+  width: 40px;
+  border: 1px solid black;
+  border-radius: 3px;
+  height: 19px;
+  
+}
+
+.detailsofpic button{
+
+  padding: 5px;
+  margin: 5px;
+  height: 29px;
+  background-color: #db6c17;
+  border-radius: 2px;
+  border: 1px solid black;
+}
+
+.detailsofpic button:hover{
+  background-color: white;
+  color: #db6c17;
+}
+
+.detailsofpic button:focus{
+  outline: none;
+}
+
+.detailsofpic button:active{
+  background-color: #db6c17;
+  color: white;
+}
+
+.detailsofpic button:visited{
+  background-color: #db6c17;
+  color: white;
+}
+
+.detailsofpic h4{
+
+  margin: 20px 10px;
+  font-size: 30px;
+  font-family: Marion Regular;
+  color: #db6c17;
+  letter-spacing: 1.5px;
+  word-spacing: 1px;
+  
+}
+
+.detailsofpic pre{
+  margin: 20px 10px;
+  padding-right: 20px;
+  font-size: 17px;
+  color: black;
+  word-spacing: 1px;
 
 }
